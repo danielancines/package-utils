@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <PackageId>DanielAncines.$(AssemblyName)</PackageId>
+    <Title>Utils package for dotnet applications</Title>
+    <Authors>Daniel Ancines</Authors>
+    <Description>Library with Utils resources for use on your dotnet projects.</Description>
+    <Copyright>MIT</Copyright>
+    <RepositoryUrl>https://github.com/danielancines/package-utils</RepositoryUrl>
+    <PackageTags>ICommand,Command,ObservableCommand,Utils</PackageTags>
+  </PropertyGroup>
+
+</Project>
