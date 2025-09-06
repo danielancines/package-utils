@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
@@ -12,6 +12,7 @@
     <Copyright>MIT</Copyright>
     <RepositoryUrl>https://github.com/danielancines/package-utils</RepositoryUrl>
     <PackageTags>ICommand,Command,ObservableCommand,Utils</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>
