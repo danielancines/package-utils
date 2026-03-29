@@ -2,7 +2,7 @@
 
 namespace Utils.Commands;
 
-public class ObservableCommand : ICommand
+public sealed class ObservableCommand : ICommand
 {
     #region Events
 
@@ -12,7 +12,7 @@ public class ObservableCommand : ICommand
 
     #region Fields
 
-    public readonly Action<object?>? _commandAction;
+    private readonly Action<object?>? _commandAction;
 
     #endregion
 

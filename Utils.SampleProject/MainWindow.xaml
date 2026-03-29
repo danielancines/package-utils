@@ -10,11 +10,24 @@
         <local:MainWindowViewModel/>
     </Window.DataContext>
     <Grid>
-        <Button Content="Click Me" 
+        <Button Content="Observable Command" 
                 HorizontalAlignment="Left" 
-                Margin="341,217,0,0" 
+                Margin="10,10,0,0" 
                 VerticalAlignment="Top"
-                Command="{Binding ClickMeCommand}"/>
+                Command="{Binding ClickMeCommand, Mode=OneTime}"/>
+        <Button Content="Generic Observable Command" 
+                HorizontalAlignment="Left" 
+                Margin="10,35,0,0" 
+                VerticalAlignment="Top"
+                Command="{Binding GenericObservableCommand, Mode=OneTime}"
+                CommandParameter="{Binding Text, Source={x:Reference GenericObservableParameterTextbox}}"/>
+        <TextBox x:Name="GenericObservableParameterTextbox" 
+                 HorizontalAlignment="Left" 
+                 Margin="188,36,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="Generic ObservableCommand Parameter" 
+                 VerticalAlignment="Top" 
+                 Width="245"/>
 
     </Grid>
 </Window>
