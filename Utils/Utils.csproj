@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
@@ -11,8 +11,8 @@
     <Description>Library with Utils resources for use on your dotnet projects.</Description>
     <Copyright>MIT</Copyright>
     <RepositoryUrl>https://github.com/danielancines/package-utils</RepositoryUrl>
-    <PackageTags>ICommand,Command,ObservableCommand,Utils</PackageTags>
-    <Version>1.0.1</Version>
+    <PackageTags>ICommand,Command,ObservableCommand,ObservableCommandGeneric,Utils</PackageTags>
+    <Version>2.0.0</Version>
   </PropertyGroup>
 
 </Project>
